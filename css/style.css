@@ -1,0 +1,56 @@
+/* BODY */
+body{
+    width: 90%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+/* header nav ul li {
+} */
+
+header nav ul li a {
+    color: black;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-left: 35px;
+}
+
+header nav ul li a:hover {
+    color: #5b359d;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+/* MAIN */
+/* BANNIERE */
+.banniere{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("../images/backgroung_image.jpg");
+    background-size: cover;
+    height: 600px;
+    color: white;
+}
+
+.banniere h1{
+    font-size: 3rem;
+}
