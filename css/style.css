@@ -1,8 +1,13 @@
 /* BODY */
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     width: 90%;
     margin: auto;
     font-family: 'Roboto', sans-serif;
+   
 }
 
 /* HEADER */
@@ -54,3 +59,113 @@ header nav ul li a:hover {
 .banniere h1{
     font-size: 3rem;
 }
+/* DESCRIPTION */
+
+#presentation {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.introduction,.competences{
+	margin-top: 40px;
+	max-width: 800px;
+   
+}
+
+.introduction p {
+	color: #575757;
+	font-size: 1.4em;
+	text-align: center;
+}
+
+.competences {
+	display: flex;
+	justify-content: space-around;
+    margin-top: 40px;
+
+   
+}
+
+.graphisme,.strategie,.illustrations {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0 10px 0 10px;
+    margin: 20px;
+}
+
+.competences h2 {
+	font-size: 1.4em;
+	font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.competences p {
+	font-size: 0.8em;
+	text-align: center;
+    margin-top: 30px;
+   
+}
+#temoignage{
+    text-align: center;
+    max-width: 600px;
+    margin-top: 40px;
+    color: rgb(87, 87, 87);
+}
+
+ .avis{
+     font-size: 1.3em;
+     
+ }
+.nom{
+    font-weight:300;
+   padding: 30px;
+}
+   
+/*  FOOTER  */
+
+footer{
+   
+    background-color:#5b359d;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+   
+}
+#copyright{
+    color: white;
+    text-align: center;
+    font-size: 0.5em;
+    font-weight: 400;
+    padding-top: 20px;
+   
+}
+
+#reseauxsociaux{
+   
+    display: flex;
+    justify-content: space-evenly;
+    height: 30px;
+    width: 400px;
+    color: rgba(255, 255, 255,.6);
+    padding-top: 30px;
+    margin: auto;
+    
+}
+#footerbas{
+    width: 100%;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-bottom: 40px;
+}
+.footercolonnes h3{
+    font-size: 1em;
+    margin-bottom: 15px;
+ }
+
+
+
